@@ -1,0 +1,1 @@
+kubectl --kubeconfig k8s.config  -n user-$(cat user)  get pods |grep redis
